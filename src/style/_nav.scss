@@ -1,0 +1,21 @@
+.nav__menu{
+    border-radius: 8px;
+    margin-left: 25px;
+    position: absolute;
+    &__list{
+
+        margin: 20px 0;
+        font-size: 25px;
+        &__item{
+            color: rgb(255, 255, 255);
+            list-style: none;    
+            text-decoration: none;        
+        }
+
+    }
+    background-color: rgba(0, 0, 0, 0.262);
+    color: white;
+    width: 200px;
+    height: auto;
+    overflow: hidden;
+}
